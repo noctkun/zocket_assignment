@@ -83,11 +83,6 @@ For ease of use in this specific demonstration project, the API key is hardcoded
 
 ⚠️ **Important Security Consideration:** ⚠️
 
-Please be aware that the Google Gemini API key is **intentionally hardcoded** directly within the `app.py` file in this project. This was done **specifically as requested** for simplified setup and execution in this particular instance, removing the need for environment variable configuration or other secrets management during testing/demonstration.
+Please be aware that the Google Gemini API key is **intentionally hardcoded** directly within the `app.py` file in this project. This was done for simplified setup and execution in this particular instance, removing the need for environment variable configuration or other secrets management during testing/demonstration.
 
 **This is NOT a recommended practice for production environments or any code that might be shared or committed to version control.** Exposing API keys directly in source code poses a significant security risk.
-
-For real-world applications, always use more secure methods like:
-
-*   **Environment Variables:** Store the key in your system's environment variables and access it in the code using `os.environ.get("GEMINI_API_KEY")`.
-*   **Secrets Management Tools:** Utilize services like Streamlit Secrets (`st.secrets`), AWS Secrets Manager, Google Secret Manager, HashiCorp Vault, or `.env` files (with appropriate `.gitignore` configuration).
