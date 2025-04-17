@@ -1,0 +1,7 @@
+streamlit
+requests
+beautifulsoup4
+pyautogen[gemini]>=0.2.19
+chromadb>=0.4.22,<0.5
+sentence-transformers>=2.2.2
+google-generativeai
