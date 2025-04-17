@@ -2,6 +2,13 @@
 
 This project demonstrates an AI agent built with Python using AutoGen and Google Gemini to summarize the content of web pages. You provide a URL, and the application fetches the page's text, uses an AI agent to generate a summary, and displays both the extracted text and the summary via a Streamlit web interface.
 
+## Demo Video
+
+
+
+https://github.com/user-attachments/assets/e14f8024-c3f7-4707-ac21-5110fa82ad84
+
+
 ## Features
 
 *   Accepts a web page URL as input.
